@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Poppins&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
+
 :root{
     --main-bg-color:#00AADE;
     --main-dr-color: #0091bd;
-    --second-dr-color:#00c4ff;;
+    --second-dr-color:#00c4ff;
+    --main-text-color:#ffffff;
+    --main-font-size:16px;
 }
 *{
     padding: 0;
@@ -75,13 +79,6 @@ textarea {
   resize: vertical;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
-  display: none;
-}
-
-input[type='submit'],
-input[type='button'],
 label,
 button,
 select {
@@ -96,15 +93,23 @@ input{
     height: 50px;
     border-radius: 50px;
     text-align: center;
+    margin: 10px 10px;
     background: var(--main-bg-color);
     box-shadow:  20px 20px 60px var(--main-dr-color),
     -20px -20px 60px var(--second-dr-color);
 }
-.Login{
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 700px;
-    height: 700px;
-    margin: 0 auto;
+    height: 100%;
+    margin: 50px auto;
+}
+.Login{
     border-radius: 25px;
+    text-align: center;
+    margin: 0 20px;
     background: var(--main-bg-color);
     box-shadow:  20px 20px 60px var(--main-dr-color),
     -20px -20px 60px var(--second-dr-color);
@@ -118,6 +123,22 @@ input{
 }
 .Twitter__Loginform{
     display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
+}
+.Twitter__Loginbutton{
+    width: 250px;
+    height: 50px;
+    margin: 50px 0;
+    border-radius: 25px;
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+    box-shadow:  20px 20px 60px var(--main-dr-color),
+    -20px -20px 60px var(--second-dr-color);
+    font-family: 'Poppins', sans-serif;
+}
+.Twitter__Loginbutton.push{
+    background: var(--main-bg-color);
+box-shadow: inset 20px 20px 60px  var(--main-dr-color),
+            inset -20px -20px 60px var(--second-dr-color);
 }
