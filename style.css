@@ -93,7 +93,7 @@ input{
     height: 50px;
     border-radius: 50px;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px 15px;
     background: var(--main-bg-color);
     box-shadow:  4px 4px 16px var(--main-dr-color),
     -8px -8px 16px var(--second-dr-color);
@@ -137,8 +137,13 @@ input{
     -8px -8px 16px var(--second-dr-color);
     font-family: 'Poppins', sans-serif;
 }
+.Twitter__Loginbutton:hover{
+    background: var(--main-bg-color);
+    box-shadow: inset 20px 20px 60px  var(--main-dr-color),
+    inset -20px -20px 60px var(--second-dr-color);
+}
 .push{
     background: var(--main-bg-color);
-box-shadow: inset 20px 20px 60px  var(--main-dr-color),
-            inset -20px -20px 60px var(--second-dr-color);
+    box-shadow:  4px 4px 16px var(--main-dr-color),
+    -8px -8px 16px var(--second-dr-color);
 }
