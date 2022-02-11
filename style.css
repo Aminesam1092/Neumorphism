@@ -137,7 +137,7 @@ input{
     -20px -20px 60px var(--second-dr-color);
     font-family: 'Poppins', sans-serif;
 }
-.Twitter__Loginbutton.push{
+.push{
     background: var(--main-bg-color);
 box-shadow: inset 20px 20px 60px  var(--main-dr-color),
             inset -20px -20px 60px var(--second-dr-color);
