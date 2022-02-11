@@ -95,8 +95,8 @@ input{
     text-align: center;
     margin: 10px 10px;
     background: var(--main-bg-color);
-    box-shadow:  20px 20px 60px var(--main-dr-color),
-    -20px -20px 60px var(--second-dr-color);
+    box-shadow:  4px 4px 16px var(--main-dr-color),
+    -8px -8px 16px var(--second-dr-color);
 }
 .Main{
     display: flex;
@@ -133,8 +133,8 @@ input{
     font-size: var(--main-font-size);
     color: var(--main-text-color);
     background: var(--main-bg-color);
-    box-shadow:  20px 20px 60px var(--main-dr-color),
-    -20px -20px 60px var(--second-dr-color);
+    box-shadow:  4px 4px 16px var(--main-dr-color),
+    -8px -8px 16px var(--second-dr-color);
     font-family: 'Poppins', sans-serif;
 }
 .push{
