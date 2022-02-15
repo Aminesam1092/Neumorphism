@@ -88,9 +88,6 @@ input::placeholder{
     box-shadow:  20px 20px 60px var(--main-dr-color),
     -20px -20px 60px var(--second-dr-color);
 }
-.Twitter{
-    text-align: center;
-}
 .Twitter__Logo{
     text-align: center;
     padding-top: 50px;
